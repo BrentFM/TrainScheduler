@@ -1,0 +1,49 @@
+.navbox {
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.navtext {
+    margin-left: 10%;
+}
+
+.jumbobox {
+    background-color: aqua;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 160px;
+    margin-bottom: 0%;
+
+}
+
+.jumboboxtext {
+    line-height: 0px;
+    margin-bottom: 3%;
+
+}
+
+.listbox {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+}
+
+.formbox {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.formtext {
+    margin-bottom: 2%;
+
+}
+
+.headerbox {
+    border: 0px;
+}
+
+body {
+    background-image: url(../images/bg2.png);
+}
