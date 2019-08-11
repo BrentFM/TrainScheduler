@@ -37,7 +37,10 @@
 
 .formtext {
     margin-bottom: 2%;
+}
 
+.formbtn {
+    width: 25%;
 }
 
 .headerbox {

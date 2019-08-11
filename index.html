@@ -47,12 +47,18 @@
             <form>
                 <div class="form-group formbox">
 
-                    <input type="text" class="form-control formtext" id="name" placeholder="Train Name">
-                    <input type="text" class="form-control formtext" id="dest" placeholder="Destination">
-                    <input type="text" class="form-control formtext" id="firstTime" placeholder="First Train Time (24:00)">
-                    <input type="text" class="form-control formtext" id="freq" placeholder="Frequency (min)">
-                    <button class="btn btn-primary btn-lg" id="addtrainbtn" type="submit">Submit</button>
-
+                    <p>Train Name</p>
+                    <input type="text" class="form-control formtext" id="name" placeholder="Ex. Train One">
+                    <p>Destination</p>
+                    <input type="text" class="form-control formtext" id="dest" placeholder="Ex. California">
+                    <p>Train take-off time</p>
+                    <input type="text" class="form-control formtext" id="firstTime"
+                        placeholder="Ex. 14:00 (Military time - 24:00)">
+                        <p>Train Frequency</p>
+                    <input type="text" class="form-control formtext" id="freq" placeholder="Ex. 5 (min)">
+                    <div class="text-center">
+                    <button class="btn btn-primary btn-lg formbtn" id="addtrainbtn" type="submit">Submit</button>
+                </div>
                 </div>
             </form>
         </div>
